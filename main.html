@@ -2,7 +2,7 @@
 <html>
 <head>
   <title></title>
-  <link rel="stylesheet" type="text/css" href="__static/index.min.css">
+  <link rel="stylesheet" type="text/css" href="static/index.min.css">
 </head>
 <body>
   <div id="app">
@@ -46,7 +46,7 @@
         </li>
       </ul>
     </div>
-    <div id="preview">
+    <div id="preview" hook-src="static/hook.min.js">
       <view class="iframe" :html="html" v-ref:view></view>
     </div>
     <div id="overlay">
@@ -74,6 +74,6 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="__static/index.min.js"></script>
+  <script type="text/javascript" src="static/index.min.js"></script>
 </body>
 </html>
